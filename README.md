@@ -8,3 +8,7 @@ Static site served by GitHub Pages at https://planningdistilled.org/ (custom dom
 - Top-level paths (`/about`, `/contact`, `/blog`, …) are kept free for site pages.
 
 The research pages are generated from a separate working repository and exported here. Update `lastmod` in `sitemap.xml` when a page changes.
+
+## Licence
+
+Text, data and images on the site and in this repository are released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): share and adapt freely, with credit to Planning Distilled. Quotations from decision letters, plans and the Framework remain their publishers' copyright. See `LICENSE`.
