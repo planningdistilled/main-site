@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://planningdistilled.org/sitemap.xml
