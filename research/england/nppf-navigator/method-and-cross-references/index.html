@@ -67,6 +67,11 @@ footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);color:v
 code{font-family:var(--mono);font-size:13px}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 
+.anchor{margin-left:.35em;color:var(--muted);text-decoration:none;font-weight:400;opacity:0}
+h2:hover>.anchor,h3:hover>.anchor,h4:hover>.anchor,.anchor:focus-visible{opacity:1}
+@media (hover:none){.anchor{opacity:.45}}
+h2[id],h3[id],h4[id]{scroll-margin-top:16px}
+h2:target,h3:target,h4:target{background:var(--accent-soft);border-radius:4px}
 </style>
 </head>
 <body>
@@ -80,7 +85,7 @@ code{font-family:var(--mono);font-size:13px}
 <main>
 <p class="banner"><strong>Not legal advice.</strong> A research aid to reading the August 2026 Framework and recent decisions. Prepared by Planning Distilled. It does not replace the development plan, the full Framework, the decision letters or professional advice.</p>
 
-<h2>1. How the Navigator was built</h2>
+<h2 id="how-the-navigator-was-built">1. How the Navigator was built<a class="anchor" href="#how-the-navigator-was-built" aria-label="Link to this section">#</a></h2>
 <p>The Navigator is a <strong>typed decision graph</strong>, authored in TypeScript and compiled to a single <code>graph.json</code>. Each node carries the verbatim policy text, the facts or planning judgements the step needs, and a query into the decisions database. A small <strong>pure evaluation engine</strong> derives the visible route, the next question, the triggers and harms, and an indicative outcome from the answers entered — it makes no judgement silently; where the Framework leaves a question to the decision-maker, the tool asks it and shows how others have answered.</p>
 <ul>
   <li><strong>Every policy quotation is verified against the published NPPF (August 2026) text at build time.</strong> The build fails if any quote cannot be found. This build: <strong>75 nodes</strong> and <strong>74 quotations verified</strong>.</li>
@@ -115,9 +120,9 @@ code{font-family:var(--mono);font-size:13px}
 </table>
 </div>
 
-<h2 id="guidance">2. External cross-references</h2>
+<h2 id="guidance">2. External cross-references<a class="anchor" href="#guidance" aria-label="Link to this section">#</a></h2>
 <p>Independent sources our notes have been checked against, and the outcome.</p>
-<h3>2.1 Sources that support reading decisions as evidence</h3>
+<h3 id="sources-that-support-reading-decisions-as-evidence">2.1 Sources that support reading decisions as evidence<a class="anchor" href="#sources-that-support-reading-decisions-as-evidence" aria-label="Link to this section">#</a></h3>
 <p>Few published sources look at decisions at all; most read the policy text. These are the ones that do, or that back doing so. They are the strongest outside support for the Navigator's method, and each comes with the caveat it raises.</p>
 <div class="tw"><table>
 <thead><tr><th>Source</th><th>Relation</th><th>What it does and how it supports the method</th><th>Caveat or watch-point</th></tr></thead>
@@ -133,7 +138,7 @@ code{font-family:var(--mono);font-size:13px}
 </tbody></table></div>
 <p>All quotations above were checked word for word against saved copies of the sources. All 315 sources reviewed are on the <a href="https://planningdistilled.org/research/england/nppf-navigator/method-and-cross-references/sources/">published guidance sources page</a>.</p>
 
-<h3>2.2 Review of published guidance (snapshot 2 October 2026)</h3>
+<h3 id="review-of-published-guidance">2.2 Review of published guidance (snapshot 2 October 2026)<a class="anchor" href="#review-of-published-guidance" aria-label="Link to this section">#</a></h3>
 <p>We collected the public guidance on applying the August 2026 Framework: government and Planning Inspectorate material, council committee reports and member briefings, barristers' chambers, law firms, planning consultancies, sector and campaign bodies, the trade press and independent writers. Each source was saved, read in full and coded against the nine propositions the Navigator rests on. Every claimed disagreement or qualification was then given to a second reviewer told to knock it down: check the quotation word for word against the saved text, read the context, and recode it if it did not hold.</p>
 <div class="stat">
 <div><b>315</b><span>sources found</span></div>
@@ -158,7 +163,7 @@ code{font-family:var(--mono);font-size:13px}
 <tr><td><code>METH</code></td><td>Decision letters are the main evidence of how the Framework is applied.</td><td class="n">33</td><td class="n">4</td><td class="n">0</td><td>Supported, with a caveat on reading outcome rates (see 2.1).</td></tr>
 </tbody></table></div>
 
-<h4>Where the review changed our analysis</h4>
+<h4 id="where-the-review-changed-our-analysis">Where the review changed our analysis<a class="anchor" href="#where-the-review-changed-our-analysis" aria-label="Link to this section">#</a></h4>
 <ul>
 <li><strong>Annex A ¶2 (changed).</strong> Two Landmark Chambers silks expect the S4/S5 approach to make settlement-based restraint policies materially inconsistent: it is "likely to override all other settlement-based constraint policies" (Reed KC); plans are likely to be inconsistent on "the S4/S5 approach to acceptability in principle" (Warren KC). Livedin agrees: "Most restrictive rural housing policies adopted under earlier editions sit here." We recounted all 96 appeal letters that weigh a plan policy against the Framework. Spatial restrictions (settlement boundaries, countryside restraint) were cut in 30 of 45 letters: 16 for a named conflict with S4/S5, and 13 because housing supply was short, the 2024 "out of date" reasoning carried over. Heritage, design, amenity and access policies kept their weight in 38 of 39. The silks are right about spatial restrictions; the heritage and design half of our finding stands.</li>
 <li><strong>S5(4) and supply (corrected).</strong> Aston Clinton (6008253, hearing, 66 homes) passed S5(4) on a substantial supply shortfall, 25% affordable housing and the council's own emerging allocation. Our headline count had not caught up with the case file. It is now 37 fail / 3 pass at appeal, and the supply proposition says "rarely", not "never".</li>
@@ -166,14 +171,14 @@ code{font-family:var(--mono);font-size:13px}
 <li><strong>Still open.</strong> Whether need for one type of housing (affordable, older people's) can open S5(1)(j) where five-year supply is met (Cornerstone; Garvey KC); the permissive "adjoining is enough" reading of "physically well-related" argued at the Colwell Farm inquiry (decision awaited); and HO12 giving traveller sites locational flexibility within GB7.</li>
 </ul>
 
-<h4>Common misreadings found in published guidance</h4>
+<h4 id="common-misreadings-found-in-published-guidance">Common misreadings found in published guidance<a class="anchor" href="#common-misreadings-found-in-published-guidance" aria-label="Link to this section">#</a></h4>
 <ul>
 <li>Treating the Annex B "around 800 metres" reasonable walking distance as a test for all walking access. It applies only to the station policies (S5(1)(h), L3, GB7(1)(h)), not to TR3 or GB7(1)(g)(iii).</li>
 <li>Quoting the December 2025 draft as if final: the draft Annex A said "in any way inconsistent", the draft settlement definition had no Green Belt village exclusion, and the draft S5(1)(j) said "well related" without "physically".</li>
 <li>Reading the S5(5) "tilt in favour" after GB7 as approval. It is a presumption that the S5(2) "should be refused" policies can still defeat.</li>
 </ul>
 
-<h4>How councils are training officers and members</h4>
+<h4 id="how-councils-are-training-officers-and-members">How councils are training officers and members<a class="anchor" href="#how-councils-are-training-officers-and-members" aria-label="Link to this section">#</a></h4>
 <ul>
 <li><strong>National support is thin.</strong> The Chief Planner's August 2026 newsletter says only: "I would encourage authorities to familiarise themselves with the new Framework." Planning Practice Guidance had not been re-keyed to the 2026 policy codes by 2 October. The Planning Advisory Service events we could verify covered the draft; autumn events on the final text are announced but we have not seen their material. Freedom of information releases show the Inspector Training Manual was updated about eight weeks after the December 2024 Framework ("Consolidated Inspector Training Manual on 10 February 2025"); we found no 2026 version in the public domain.</li>
 <li><strong>Council briefings teach the draft.</strong> Of the 12 council documents found, only two were written after 17 August 2026. Every council briefing on Annex A that we found used the draft's whole-policy reading: King's Lynn and West Norfolk, policies "in any way inconsistent"; Gedling, inconsistent policies "will be considered out of date and be accorded little weight". The final text says "policies (or parts of those policies) which are materially inconsistent". Inspectors cut clauses; Stratford-on-Avon District Council, in our database, cut whole heritage (CS.8) and access (CS.26) policies.</li>
@@ -181,13 +186,13 @@ code{font-family:var(--mono);font-size:13px}
 <li><strong>One council applying the final tests.</strong> Three Rivers' inquiry note treats route and topography, not the 800 metre line, as deciding reasonable walking distance, and runs the S5(5) balance with S5(2) after GB7: the approach inspectors take.</li>
 </ul>
 
-<h4>Others analysing decisions</h4>
+<h4 id="others-analysing-decisions">Others analysing decisions<a class="anchor" href="#others-analysing-decisions" aria-label="Link to this section">#</a></h4>
 <p>See 2.1. We found no one else counting findings test by test under the August 2026 text, or comparing councils with inspectors on the same tests.</p>
 
-<h2>3. Inconsistencies found</h2>
+<h2 id="inconsistencies-found">3. Inconsistencies found<a class="anchor" href="#inconsistencies-found" aria-label="Link to this section">#</a></h2>
 <p>Two strands of work. The first tests <strong>every appeal decision in the database</strong> against the Framework. The second compares <strong>Stratford-on-Avon District Council's own decisions</strong> — both against each other and against appeal decisions.</p>
 
-<h3>Across all appeal decisions</h3>
+<h3 id="across-all-appeal-decisions">Across all appeal decisions<a class="anchor" href="#across-all-appeal-decisions" aria-label="Link to this section">#</a></h3>
 <p>Every appeal in the database &mdash; <strong>899 Planning Inspectorate and 2 Secretary of State decisions</strong> &mdash; was tested against six issues drawn from the Stratford note. All 879 quotations in the per-case tables were machine-checked against the letters, and all matched. "Differs" mostly means a different <em>route</em> to the same result; it changes the outcome only where the appeal was allowed. Full detail: <a href="https://planningdistilled.org/research/authority/stratford-dc/nppf-2026-decisions/" target="_blank" rel="noopener">the Council-decisions review page</a>.</p>
 <div class="tw">
 <table>
@@ -205,7 +210,7 @@ code{font-family:var(--mono);font-size:13px}
 </div>
 <p class="q">Borderline cases are marked where the required step is missing but the result would plainly be the same (e.g. Lydiard Millicent 6001260 on TR3, issue 5).</p>
 
-<h4>Issue 1 — DP3(3), broken down</h4>
+<h4 id="issue-1-dp3-broken-down">Issue 1 — DP3(3), broken down<a class="anchor" href="#issue-1-dp3-broken-down" aria-label="Link to this section">#</a></h4>
 <p>DP3(3) makes a proposal <em>"should be refused"</em> if, without clear justification, it conflicts with any one of three things:</p>
 <ul>
 <li><strong>DP3(1) context</strong> — the history, character and features of the site and its setting, and integration with its surroundings.</li>
@@ -234,7 +239,7 @@ code{font-family:var(--mono);font-size:13px}
 </ul>
 <p class="q">Either reading is stricter than the S4/S5 "substantially outweighed" test, which favours approval. The Navigator now takes this in two steps &mdash; a checklist of what the scheme conflicts with, then the clear-justification call &mdash; mirroring this breakdown.</p>
 
-<h3>Stratford-on-Avon District Council's own decisions</h3>
+<h3 id="stratford-on-avon-district-council-s-own-decisions">Stratford-on-Avon District Council's own decisions<a class="anchor" href="#stratford-on-avon-district-council-s-own-decisions" aria-label="Link to this section">#</a></h3>
 <p>The Stratford note works through <strong>six issues</strong>, each looked at two ways: whether the Council is consistent <em>with itself</em>, and whether it matches how inspectors decide the same question. The sharpest contrast is on walking routes: <strong>Alcester <span class="ok">&#10003;</span></strong> treated a policy failure as a "should be refused" trigger and refused, while <strong>Snitterfield <span class="no">&#10007;</span></strong> found character harm but granted without asking whether there was clear justification.</p>
 <div class="tw">
 <table>
