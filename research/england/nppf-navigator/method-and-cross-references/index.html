@@ -55,6 +55,8 @@ caption{caption-side:top;text-align:left;color:var(--muted);font-size:13px;margi
 th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
 th{background:var(--surface-2);font-weight:600}
 tbody tr:nth-child(even){background:var(--surface-2)}
+tbody tr.sub{background:none;color:var(--muted);font-size:13.5px}
+tr.sub td:first-child{padding-left:26px}
 td.n{font-variant-numeric:tabular-nums;font-family:var(--mono);font-size:13.5px;white-space:nowrap}
 .q{color:var(--muted);font-size:12.5px}
 .tag{display:inline-block;font-size:12px;font-weight:600;border-radius:4px;padding:1px 7px;background:var(--accent-soft);color:var(--accent);white-space:nowrap}
@@ -193,13 +195,17 @@ h2:target,h3:target,h4:target{background:var(--accent-soft);border-radius:4px}
 <p>Two strands of work. The first tests <strong>every appeal decision in the database</strong> against the Framework. The second compares <strong>Stratford-on-Avon District Council's own decisions</strong> — both against each other and against appeal decisions.</p>
 
 <h3 id="across-all-appeal-decisions">Across all appeal decisions<a class="anchor" href="#across-all-appeal-decisions" aria-label="Link to this section">#</a></h3>
-<p>Every appeal in the database &mdash; <strong>899 Planning Inspectorate and 2 Secretary of State decisions</strong> &mdash; was tested against six issues drawn from the Stratford note. All 879 quotations in the per-case tables were machine-checked against the letters, and all matched. "Differs" mostly means a different <em>route</em> to the same result; it changes the outcome only where the appeal was allowed. Full detail: <a href="https://planningdistilled.org/research/authority/stratford-dc/nppf-2026-decisions/" target="_blank" rel="noopener">the Council-decisions review page</a>.</p>
+<p>Every appeal in the database &mdash; <strong>899 Planning Inspectorate and 2 Secretary of State decisions</strong> &mdash; was tested against six issues drawn from the Stratford note. All 879 quotations in the per-case tables were machine-checked against the letters, and all matched. "Differs" mostly means a different <em>route</em> to the same result; it changes the outcome only where the appeal was allowed. Issue 1 is broken out: a letter that finds the design harm and dismisses has done what DP3(3) directs (<em>"should be refused"</em>) whether or not it names the policy, so it counts as consistent and is shown on its own line. Full detail: <a href="https://planningdistilled.org/research/authority/stratford-dc/nppf-2026-decisions/" target="_blank" rel="noopener">the Council-decisions review page</a>.</p>
 <div class="tw">
 <table>
 <caption>Source: <code>analysis/appeals-consistency-review.md</code> and <code>appeals-review/issue-1..6.tsv</code>.</caption>
-<thead><tr><th>Issue</th><th class="n">Arises</th><th class="n">Applies the test</th><th class="n">Differs (borderline)</th><th class="n">Differs &amp; allowed</th></tr></thead>
+<thead><tr><th>Issue</th><th class="n">Arises</th><th class="n">Consistent with the test</th><th class="n">Differs (borderline)</th><th class="n">Differs &amp; allowed</th></tr></thead>
 <tbody>
-<tr><td>1. DP3(3) design as a "should be refused" policy</td><td class="n">232</td><td class="n">96 (41%)</td><td class="n">136 <span class="q">(121 reach the same result another way)</span></td><td class="n">8</td></tr>
+<tr><td>1. DP3(3) design as a "should be refused" policy</td><td class="n">232</td><td class="n">217 (94%)</td><td class="n">15 (4)</td><td class="n">8</td></tr>
+<tr class="sub"><td>named DP3(3) and asked the clear-justification question</td><td class="n"></td><td class="n">96</td><td class="n"></td><td class="n"></td></tr>
+<tr class="sub"><td>found the design harm and dismissed without naming DP3(3)</td><td class="n"></td><td class="n">121</td><td class="n"></td><td class="n"></td></tr>
+<tr class="sub"><td>used 2024 design wording</td><td class="n"></td><td class="n"></td><td class="n">9 (0)</td><td class="n">2</td></tr>
+<tr class="sub"><td>found a design conflict, never asked for clear justification</td><td class="n"></td><td class="n"></td><td class="n">6 (4)</td><td class="n">6</td></tr>
 <tr><td>2. Heritage harm method (HE6, HE4, HE7)</td><td class="n">199</td><td class="n">166 (83%)</td><td class="n">33 (13)</td><td class="n">4</td></tr>
 <tr><td>3. Weight given to plan policies (Annex A(2))</td><td class="n">96</td><td class="n">72 (75%)</td><td class="n">24 (10)</td><td class="n">8</td></tr>
 <tr><td>4. Location shortcuts in the Green Belt</td><td class="n">122</td><td class="n">95 (78%)</td><td class="n">27 (14)</td><td class="n">9</td></tr>
@@ -217,15 +223,15 @@ h2:target,h3:target,h4:target{background:var(--accent-soft);border-radius:4px}
 <li><strong>The relevant DP3(2) principles</strong> — (a) liveability, (b) climate, (c) nature and green infrastructure (tree cover), (d) movement, (e) built form, (f) public space, (g) identity and local character.</li>
 <li><strong>An explicit design standard in the development plan</strong> — a Village Design Statement, design guide, code or masterplan; DP3(3) gives <em>substantial weight</em> to compliance (the clearest dataset example is 6010826).</li>
 </ul>
-<p>Of the <strong>232</strong> appeals where design harm arose, the numbers split by type of inconsistency as follows. Only the last two rows change an outcome; the middle two reach the same result by another route and are not errors.</p>
+<p>Of the <strong>232</strong> appeals where design harm arose, <strong>217 (94%)</strong> are consistent with DP3(3): 96 name it and ask the clear-justification question, and 121 find the design harm and dismiss by another route. The full split is below. Only the last two rows change an outcome; the middle two reach the result DP3(3) directs and are not errors.</p>
 <div class="tw">
 <table>
 <caption>Source: <code>analysis/appeals-consistency-review.md</code>, issue 1.</caption>
 <thead><tr><th>How DP3(3) was handled</th><th class="n">Appeals</th><th>Outcome</th></tr></thead>
 <tbody>
 <tr><td>Named DP3(3) and asked the clear-justification question</td><td class="n">96</td><td>the test applied as written</td></tr>
-<tr><td>Differed &mdash; weighed the design harm as ordinary harm</td><td class="n">81</td><td>all dismissed (same result)</td></tr>
-<tr><td>Differed &mdash; dismissed on the local plan (s38(6))</td><td class="n">40</td><td>all dismissed (same result)</td></tr>
+<tr><td>Same result, DP3(3) not named &mdash; weighed the design harm as ordinary harm</td><td class="n">81</td><td>all dismissed</td></tr>
+<tr><td>Same result, DP3(3) not named &mdash; dismissed on the local plan (s38(6))</td><td class="n">40</td><td>all dismissed</td></tr>
 <tr><td>Differed &mdash; used 2024 design wording</td><td class="n">9</td><td>2 allowed</td></tr>
 <tr><td>Differed in substance &mdash; conflict found, clear justification never asked</td><td class="n">6</td><td>all allowed: Burnett 6005916 <span class="q">(borderline)</span>, Cople 6011253, Watlington 6007871 <span class="q">(borderline)</span>, Highbury 6005904, Buntingford 6008238 <span class="q">(borderline)</span>, West Wickham 6007183 <span class="q">(borderline)</span></td></tr>
 <tr><td><strong>Total</strong></td><td class="n"><strong>232</strong></td><td><strong>8 allowed where it differed</strong></td></tr>
