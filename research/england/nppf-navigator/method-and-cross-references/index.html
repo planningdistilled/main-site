@@ -25,7 +25,7 @@
 <link rel="canonical" href="https://planningdistilled.org/research/england/nppf-navigator/method-and-cross-references/">
 <link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
 <meta property="og:title" content="NPPF Navigator — Method & cross-references">
-<meta property="og:description" content="How the tool was built, the case counts, external cross-checks, and the inconsistencies found across 971 decisions.">
+<meta property="og:description" content="How the tool was built, the case counts, external cross-checks, and the inconsistencies found across 1064 decisions.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
@@ -96,9 +96,9 @@ h2:target,h3:target,h4:target{background:var(--accent-soft);border-radius:4px}
 </ul>
 
 <div class="stat">
-  <div><b>971</b><span>decisions in the database</span></div>
-  <div><b>858</b><span>apply the 2026 Framework</span></div>
-  <div><b>1400</b><span>decision letters in the corpus</span></div>
+  <div><b>1064</b><span>decisions in the database</span></div>
+  <div><b>951</b><span>apply the 2026 Framework</span></div>
+  <div><b>1508</b><span>decision letters in the corpus</span></div>
   <div><b>75 / 74</b><span>graph nodes / verified quotes</span></div>
 </div>
 
@@ -107,17 +107,17 @@ h2:target,h3:target,h4:target{background:var(--accent-soft);border-radius:4px}
 <caption>The decisions database (source: <code>index/cases.json</code>, <code>harvest-log/state.json</code>, built <code>manifest.json</code>).</caption>
 <thead><tr><th>Measure</th><th>Count</th><th>Source</th></tr></thead>
 <tbody>
-<tr><td>Decisions read and summarised</td><td><span class="n">971</span></td><td>cases.json</td></tr>
-<tr><td>&nbsp;&nbsp;by inspectors</td><td><span class="n">899</span></td><td>cases.json</td></tr>
+<tr><td>Decisions read and summarised</td><td><span class="n">1064</span></td><td>cases.json</td></tr>
+<tr><td>&nbsp;&nbsp;by inspectors</td><td><span class="n">984</span></td><td>cases.json</td></tr>
 <tr><td>&nbsp;&nbsp;by the Secretary of State</td><td><span class="n">2</span></td><td>cases.json</td></tr>
-<tr><td>&nbsp;&nbsp;by councils (committee + delegated)</td><td><span class="n">70</span></td><td>cases.json</td></tr>
-<tr><td>Applying the 2026 Framework</td><td><span class="n">858</span></td><td>nppf_applied = 2026-08</td></tr>
+<tr><td>&nbsp;&nbsp;by councils (committee + delegated)</td><td><span class="n">78</span></td><td>cases.json</td></tr>
+<tr><td>Applying the 2026 Framework</td><td><span class="n">951</span></td><td>nppf_applied = 2026-08</td></tr>
 <tr><td>Transitional (2024 Framework)</td><td><span class="n">47</span></td><td>nppf_applied = 2024-12</td></tr>
 <tr><td>No Framework version cited</td><td><span class="n">66</span></td><td>nppf_applied = not-cited</td></tr>
-<tr><td>Decision letters in the corpus</td><td><span class="n">1400</span></td><td>state.json</td></tr>
+<tr><td>Decision letters in the corpus</td><td><span class="n">1508</span></td><td>state.json</td></tr>
 <tr><td>Awaiting distillation into the database</td><td><span class="n">0</span></td><td>state.json</td></tr>
-<tr><td>Newest decision</td><td><span class="n">30 September 2026</span></td><td>state.json</td></tr>
-<tr><td>Last harvest of new decisions</td><td><span class="n">30 September 2026</span></td><td>manifest.json</td></tr>
+<tr><td>Newest decision</td><td><span class="n">2 October 2026</span></td><td>state.json</td></tr>
+<tr><td>Last harvest of new decisions</td><td><span class="n">2 October 2026</span></td><td>manifest.json</td></tr>
 </tbody>
 </table>
 </div>
@@ -195,22 +195,22 @@ h2:target,h3:target,h4:target{background:var(--accent-soft);border-radius:4px}
 <p>Two strands of work. The first tests <strong>every appeal decision in the database</strong> against the Framework. The second compares <strong>Stratford-on-Avon District Council's own decisions</strong> — both against each other and against appeal decisions.</p>
 
 <h3 id="across-all-appeal-decisions">Across all appeal decisions<a class="anchor" href="#across-all-appeal-decisions" aria-label="Link to this section">#</a></h3>
-<p>Every appeal in the database &mdash; <strong>899 Planning Inspectorate and 2 Secretary of State decisions</strong> &mdash; was tested against six issues drawn from the Stratford note. All 879 quotations in the per-case tables were machine-checked against the letters, and all matched. "Differs" mostly means a different <em>route</em> to the same result; it changes the outcome only where the appeal was allowed. Issue 1 is broken out: a letter that finds the design harm and dismisses has done what DP3(3) directs (<em>"should be refused"</em>) whether or not it names the policy, so it counts as consistent and is shown on its own line. Full detail: <a href="https://planningdistilled.org/research/authority/stratford-dc/nppf-2026-decisions/" target="_blank" rel="noopener">the Council-decisions review page</a>.</p>
+<p>Every appeal in the database &mdash; <strong>984 Planning Inspectorate and 2 Secretary of State decisions</strong> &mdash; was tested against six issues drawn from the Stratford note. All 1027 quotations in the per-case tables were machine-checked against the letters, and all matched. "Differs" mostly means a different <em>route</em> to the same result; it changes the outcome only where the appeal was allowed. Issue 1 is broken out: a letter that finds the design harm and dismisses has done what DP3(3) directs (<em>"should be refused"</em>) whether or not it names the policy, so it counts as consistent and is shown on its own line. Full detail: <a href="https://planningdistilled.org/research/authority/stratford-dc/nppf-2026-decisions/" target="_blank" rel="noopener">the Council-decisions review page</a>.</p>
 <div class="tw">
 <table>
 <caption>Source: <code>analysis/appeals-consistency-review.md</code> and <code>appeals-review/issue-1..6.tsv</code>.</caption>
 <thead><tr><th>Issue</th><th class="n">Arises</th><th class="n">Consistent with the test</th><th class="n">Differs (borderline)</th><th class="n">Differs &amp; allowed</th></tr></thead>
 <tbody>
-<tr><td>1. DP3(3) design as a "should be refused" policy</td><td class="n">232</td><td class="n">217 (94%)</td><td class="n">15 (4)</td><td class="n">8</td></tr>
-<tr class="sub"><td>named DP3(3) and asked the clear-justification question</td><td class="n"></td><td class="n">96</td><td class="n"></td><td class="n"></td></tr>
-<tr class="sub"><td>found the design harm and dismissed without naming DP3(3)</td><td class="n"></td><td class="n">121</td><td class="n"></td><td class="n"></td></tr>
+<tr><td>1. DP3(3) design as a "should be refused" policy</td><td class="n">264</td><td class="n">248 (94%)</td><td class="n">16 (5)</td><td class="n">9</td></tr>
+<tr class="sub"><td>named DP3(3) and asked the clear-justification question</td><td class="n"></td><td class="n">108</td><td class="n"></td><td class="n"></td></tr>
+<tr class="sub"><td>found the design harm and dismissed without naming DP3(3)</td><td class="n"></td><td class="n">140</td><td class="n"></td><td class="n"></td></tr>
 <tr class="sub"><td>used 2024 design wording</td><td class="n"></td><td class="n"></td><td class="n">9 (0)</td><td class="n">2</td></tr>
-<tr class="sub"><td>found a design conflict, never asked for clear justification</td><td class="n"></td><td class="n"></td><td class="n">6 (4)</td><td class="n">6</td></tr>
-<tr><td>2. Heritage harm method (HE6, HE4, HE7)</td><td class="n">199</td><td class="n">166 (83%)</td><td class="n">33 (13)</td><td class="n">4</td></tr>
-<tr><td>3. Weight given to plan policies (Annex A(2))</td><td class="n">96</td><td class="n">72 (75%)</td><td class="n">24 (10)</td><td class="n">8</td></tr>
-<tr><td>4. Location shortcuts in the Green Belt</td><td class="n">122</td><td class="n">95 (78%)</td><td class="n">27 (14)</td><td class="n">9</td></tr>
-<tr><td>5. Walking routes, stations, access (TR3)</td><td class="n">130</td><td class="n">101 (78%)</td><td class="n">29 (18)</td><td class="n">18</td></tr>
-<tr><td>6. Which Framework is applied (Annex A(1))</td><td class="n">820</td><td class="n">733 (89%) <span class="q">+45 immaterial 2024 wording</span></td><td class="n">42 applied 2024</td><td class="n">14</td></tr>
+<tr class="sub"><td>found a design conflict, never asked for clear justification</td><td class="n"></td><td class="n"></td><td class="n">7 (5)</td><td class="n">7</td></tr>
+<tr><td>2. Heritage harm method (HE6, HE4, HE7)</td><td class="n">236</td><td class="n">202 (86%)</td><td class="n">34 (13)</td><td class="n">5</td></tr>
+<tr><td>3. Weight given to plan policies (Annex A(2))</td><td class="n">125</td><td class="n">98 (78%)</td><td class="n">27 (11)</td><td class="n">8</td></tr>
+<tr><td>4. Location shortcuts in the Green Belt</td><td class="n">137</td><td class="n">107 (78%)</td><td class="n">30 (17)</td><td class="n">11</td></tr>
+<tr><td>5. Walking routes, stations, access (TR3)</td><td class="n">148</td><td class="n">112 (76%)</td><td class="n">36 (24)</td><td class="n">25</td></tr>
+<tr><td>6. Which Framework is applied (Annex A(1))</td><td class="n">905</td><td class="n">815 (90%) <span class="q">+48 immaterial 2024 wording</span></td><td class="n">42 applied 2024</td><td class="n">14</td></tr>
 </tbody>
 </table>
 </div>
@@ -223,18 +223,18 @@ h2:target,h3:target,h4:target{background:var(--accent-soft);border-radius:4px}
 <li><strong>The relevant DP3(2) principles</strong> — (a) liveability, (b) climate, (c) nature and green infrastructure (tree cover), (d) movement, (e) built form, (f) public space, (g) identity and local character.</li>
 <li><strong>An explicit design standard in the development plan</strong> — a Village Design Statement, design guide, code or masterplan; DP3(3) gives <em>substantial weight</em> to compliance (the clearest dataset example is 6010826).</li>
 </ul>
-<p>Of the <strong>232</strong> appeals where design harm arose, <strong>217 (94%)</strong> are consistent with DP3(3): 96 name it and ask the clear-justification question, and 121 find the design harm and dismiss by another route. The full split is below. Only the last two rows change an outcome; the middle two reach the result DP3(3) directs and are not errors.</p>
+<p>Of the <strong>264</strong> appeals where design harm arose, <strong>248 (94%)</strong> are consistent with DP3(3): 108 name it and ask the clear-justification question, and 140 find the design harm and dismiss by another route. The full split is below. Only the last two rows change an outcome; the middle two reach the result DP3(3) directs and are not errors.</p>
 <div class="tw">
 <table>
 <caption>Source: <code>analysis/appeals-consistency-review.md</code>, issue 1.</caption>
 <thead><tr><th>How DP3(3) was handled</th><th class="n">Appeals</th><th>Outcome</th></tr></thead>
 <tbody>
-<tr><td>Named DP3(3) and asked the clear-justification question</td><td class="n">96</td><td>the test applied as written</td></tr>
-<tr><td>Same result, DP3(3) not named &mdash; weighed the design harm as ordinary harm</td><td class="n">81</td><td>all dismissed</td></tr>
-<tr><td>Same result, DP3(3) not named &mdash; dismissed on the local plan (s38(6))</td><td class="n">40</td><td>all dismissed</td></tr>
+<tr><td>Named DP3(3) and asked the clear-justification question</td><td class="n">108</td><td>the test applied as written</td></tr>
+<tr><td>Same result, DP3(3) not named &mdash; weighed the design harm as ordinary harm</td><td class="n">92</td><td>all dismissed</td></tr>
+<tr><td>Same result, DP3(3) not named &mdash; dismissed on the local plan (s38(6))</td><td class="n">48</td><td>all dismissed</td></tr>
 <tr><td>Differed &mdash; used 2024 design wording</td><td class="n">9</td><td>2 allowed</td></tr>
-<tr><td>Differed in substance &mdash; conflict found, clear justification never asked</td><td class="n">6</td><td>all allowed: Burnett 6005916 <span class="q">(borderline)</span>, Cople 6011253, Watlington 6007871 <span class="q">(borderline)</span>, Highbury 6005904, Buntingford 6008238 <span class="q">(borderline)</span>, West Wickham 6007183 <span class="q">(borderline)</span></td></tr>
-<tr><td><strong>Total</strong></td><td class="n"><strong>232</strong></td><td><strong>8 allowed where it differed</strong></td></tr>
+<tr><td>Differed in substance &mdash; conflict found, clear justification never asked</td><td class="n">7</td><td>all allowed: Burnett 6005916 <span class="q">(borderline)</span>, Cople 6011253, Watlington 6007871 <span class="q">(borderline)</span>, Highbury 6005904, Buntingford 6008238 <span class="q">(borderline)</span>, West Wickham 6007183 <span class="q">(borderline)</span>, Hildenborough 6010459 <span class="q">(borderline)</span></td></tr>
+<tr><td><strong>Total</strong></td><td class="n"><strong>264</strong></td><td><strong>9 allowed where it differed</strong></td></tr>
 </tbody>
 </table>
 </div>

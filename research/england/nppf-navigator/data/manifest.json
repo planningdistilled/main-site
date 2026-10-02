@@ -1,58 +1,58 @@
 {
  "version": 1,
- "builtAt": "2026-10-02T13:51:14.193Z",
+ "builtAt": "2026-10-02T22:11:12.175Z",
  "graph": {
-  "file": "data/graph-bb7056a5dd.json",
+  "file": "data/graph-5edb3f65c2.json",
   "id": "nppf-2026-navigator",
   "version": "1",
-  "hash": "bb7056a5dd"
+  "hash": "5edb3f65c2"
  },
  "dataset": {
-  "cases": 971,
+  "cases": 1064,
   "byDecisionMaker": {
-   "inspector": 899,
-   "lpa-committee": 37,
-   "lpa-delegated": 33,
+   "inspector": 984,
+   "lpa-committee": 38,
+   "lpa-delegated": 40,
    "secretary-of-state": 2
   },
-  "newestDecisionDate": "2026-09-30",
-  "lastHarvest": "2026-09-30T17:57:30+01:00",
-  "lettersInCorpus": 1400,
+  "newestDecisionDate": "2026-10-02",
+  "lastHarvest": "2026-10-02T21:42:38+01:00",
+  "lettersInCorpus": 1508,
   "awaitingDistillation": 0,
-  "framework2026": 858
+  "framework2026": 951
  },
  "index": {
-  "file": "data/index-7d5204cc3c.json",
-  "bytes": 612957,
-  "cases": 971
+  "file": "data/index-76afed21a0.json",
+  "bytes": 686249,
+  "cases": 1064
  },
  "notes": [
   {
-   "file": "data/notes-f2c66f9fe3.json",
-   "bytes": 899933,
-   "cases": 561
+   "file": "data/notes-9add2cc874.json",
+   "bytes": 899102,
+   "cases": 497
   },
   {
-   "file": "data/notes-e8dba454cc.json",
-   "bytes": 557706,
-   "cases": 410
+   "file": "data/notes-2063459f6a.json",
+   "bytes": 798530,
+   "cases": 567
   }
  ],
  "bodies": [
   {
-   "file": "data/bodies-ce478212de.json",
-   "bytes": 899094,
-   "cases": 363
+   "file": "data/bodies-932a5a43b4.json",
+   "bytes": 899473,
+   "cases": 328
   },
   {
-   "file": "data/bodies-0efde69a09.json",
-   "bytes": 896636,
-   "cases": 488
+   "file": "data/bodies-46d7b0b63a.json",
+   "bytes": 897198,
+   "cases": 423
   },
   {
-   "file": "data/bodies-d4506461ef.json",
-   "bytes": 284640,
-   "cases": 120
+   "file": "data/bodies-d7bce6ed5e.json",
+   "bytes": 603333,
+   "cases": 313
   }
  ],
  "baseUrl": null
