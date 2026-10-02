@@ -2,7 +2,7 @@
 
 > Independent research on planning decisions in England under the August 2026 NPPF: an interactive Framework navigator, a verified register of how inspectors use settlement tiers, and local case studies.
 
-Everything on this site is free to reuse under the Creative Commons Attribution 4.0 licence (https://creativecommons.org/licenses/by/4.0/), with credit to "Planning Distilled". That includes quoting, summarising, indexing, retrieval and training AI models. Quotations from decision letters, plans and the Framework remain the copyright of their publishers.
+Everything on this site is free to reuse under the Creative Commons Attribution 4.0 licence (https://creativecommons.org/licenses/by/4.0/), with credit to "Planning Distilled". That includes quoting, summarising, indexing, retrieval and training AI models. Quotations from decision letters, plans and the Framework remain the copyright of their publishers. The data, tools and page sources are at https://github.com/planningdistilled/research.
 
 The research is about England only. "NPPF" is the National Planning Policy Framework; the version in force took effect on 17 August 2026. Policy codes such as S5, GB7, TR3 and HE6 are that Framework's own. Nothing here is legal advice.
 

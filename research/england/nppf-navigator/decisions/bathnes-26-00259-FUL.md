@@ -52,4 +52,4 @@ The land was previously developed and physically enclosed, next to a village rat
 
 Source: https://planningdistilled.org/research/england/nppf-navigator/decisions/bathnes-26-00259-FUL.html
 
-A summary of a public planning decision, written from the officer report. Not legal advice. © Planning Distilled. Released under the Creative Commons Attribution 4.0 licence (https://creativecommons.org/licenses/by/4.0/): share and adapt freely, with credit to Planning Distilled. Quotations from decision letters, plans and the Framework remain the copyright of their publishers.
+A summary of a public planning decision, written from the officer report. Not legal advice. © Planning Distilled. Released under the Creative Commons Attribution 4.0 licence (https://creativecommons.org/licenses/by/4.0/): share and adapt freely, with credit to Planning Distilled. Quotations from decision letters, plans and the Framework remain the copyright of their publishers. Source and data: https://github.com/planningdistilled/research.

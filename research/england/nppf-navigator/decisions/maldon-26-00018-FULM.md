@@ -46,4 +46,4 @@ Up to 360 homes as a westward extension of an allocated Burnham-on-Crouch strate
 
 Source: https://planningdistilled.org/research/england/nppf-navigator/decisions/maldon-26-00018-FULM.html
 
-A summary of a public planning decision, written from the officer report. Not legal advice. © Planning Distilled. Released under the Creative Commons Attribution 4.0 licence (https://creativecommons.org/licenses/by/4.0/): share and adapt freely, with credit to Planning Distilled. Quotations from decision letters, plans and the Framework remain the copyright of their publishers.
+A summary of a public planning decision, written from the officer report. Not legal advice. © Planning Distilled. Released under the Creative Commons Attribution 4.0 licence (https://creativecommons.org/licenses/by/4.0/): share and adapt freely, with credit to Planning Distilled. Quotations from decision letters, plans and the Framework remain the copyright of their publishers. Source and data: https://github.com/planningdistilled/research.
