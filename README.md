@@ -5,9 +5,18 @@ Static site served by GitHub Pages at https://planningdistilled.org/ (custom dom
 - `research/england/` — England-wide work: `nppf-navigator/` and `service-village/`.
 - `research/authority/<authority>/` — local planning authority reviews, e.g. `stratford-dc/`.
 - `research/settlement/<settlement>/` — settlement case studies, e.g. `claverdon/`.
-- Top-level paths (`/about`, `/contact`, `/blog`, …) are kept free for site pages.
+- `research/england/nppf-navigator/decisions/` — a static page, and a Markdown copy, for every decision note behind the Navigator, with `decisions.json` and `decisions.csv`; `route/` is the Navigator's decision route as one page.
+- `about/` — what the site is, the licence and how to reuse it. Other top-level paths (`/contact`, `/blog`, …) are kept free for site pages.
 
-The research pages are generated from a separate working repository and exported here. Update `lastmod` in `sitemap.xml` when a page changes.
+The research pages are generated from a separate working repository and exported here. A finishing pass in that repository then writes, on every page, the block between `<!-- pd:meta -->` markers (Open Graph tags, share image, structured data, dates) and regenerates `sitemap.xml`, `llms.txt` and `llms-full.txt`. Do not edit those by hand.
+
+## For search engines and AI crawlers
+
+- `robots.txt` welcomes every crawler, including AI training crawlers, and names the sitemap.
+- `sitemap.xml` lists every page with the date its content last changed.
+- `llms.txt` is a short guide to the site for language models; `llms-full.txt` is the decision route and every decision note as one text file.
+- `.well-known/tdmrep.json` states that text-and-data-mining rights are not reserved.
+- The 32-character `.txt` file at the root is the IndexNow key.
 
 ## Licence
 

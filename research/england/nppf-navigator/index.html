@@ -4,6 +4,20 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>NPPF 2026 Navigator</title>
+<!-- pd:meta -->
+<meta property="og:site_name" content="Planning Distilled">
+<meta property="og:locale" content="en_GB">
+<meta property="og:image" content="https://planningdistilled.org/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Planning Distilled: planning decisions under the 2026 NPPF, distilled">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="article:modified_time" content="2026-10-02">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="tdm-reservation" content="0">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebApplication","name":"NPPF 2026 Navigator","description":"An interactive decision route through the National Planning Policy Framework (August 2026): answer the facts and planning judgements a decision needs, see the verbatim policy text for each step, and compare with appeal and council decisions made under the new Framework. Not legal advice.","url":"https://planningdistilled.org/research/england/nppf-navigator/","inLanguage":"en-GB","isAccessibleForFree":true,"license":"https://creativecommons.org/licenses/by/4.0/","applicationCategory":"ReferenceApplication","operatingSystem":"Any","browserRequirements":"Requires JavaScript","offers":{"@type":"Offer","price":0,"priceCurrency":"GBP"},"author":{"@type":"Organization","@id":"https://planningdistilled.org/#organisation","name":"Planning Distilled","url":"https://planningdistilled.org/"},"publisher":{"@type":"Organization","@id":"https://planningdistilled.org/#organisation","name":"Planning Distilled","url":"https://planningdistilled.org/"},"dateModified":"2026-10-02","image":"https://planningdistilled.org/assets/og.png"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Planning Distilled","item":"https://planningdistilled.org/"},{"@type":"ListItem","position":2,"name":"Research","item":"https://planningdistilled.org/research/"},{"@type":"ListItem","position":3,"name":"England","item":"https://planningdistilled.org/research/england/"},{"@type":"ListItem","position":4,"name":"NPPF 2026 Navigator","item":"https://planningdistilled.org/research/england/nppf-navigator/"}]}]}</script>
+<!-- /pd:meta -->
 <meta name="description" content="An interactive decision route through the National Planning Policy Framework (August 2026): answer the facts and planning judgements a decision needs, see the verbatim policy text for each step, and compare with appeal and council decisions made under the new Framework. Not legal advice.">
 <link rel="canonical" href="https://planningdistilled.org/research/england/nppf-navigator/">
 <meta property="og:type" content="website">
@@ -279,8 +293,18 @@ details.method summary { cursor: pointer; font-weight: 600; font-size: 14px; col
 </head>
 <body>
 <nav aria-label="Breadcrumb" style="max-width:1100px;margin:0 auto;padding:12px 16px 0;font:500 12px/1.4 ui-monospace,Menlo,monospace;letter-spacing:.05em;text-transform:uppercase;color:var(--muted,#59635d)"><a href="/" style="color:inherit;text-decoration:none">Planning Distilled</a> &rsaquo; <a href="/research/" style="color:inherit;text-decoration:none">Research</a> &rsaquo; <a href="/research/england/" style="color:inherit;text-decoration:none">England</a> &rsaquo; NPPF 2026 Navigator</nav>
-<div id="app"><p class="loading">Loading the Framework and decisions…</p></div>
+<div id="app"><h1>NPPF 2026 Navigator</h1><p class="loading">Loading the Framework and decisions…</p></div>
 <script type="module" src="app.js"></script>
+<section class="about-tool" style="max-width:1100px;margin:36px auto 0;padding:20px 16px 0;border-top:1px solid var(--line,#d5dddd);font:15px/1.6 -apple-system,'Segoe UI',system-ui,sans-serif">
+<h2 style="font-size:18px;margin:0 0 8px">About this tool</h2>
+<p style="margin:0 0 10px;max-width:80ch">The NPPF 2026 Navigator is an interactive decision route through the National Planning Policy Framework (August 2026). It asks for the facts and planning judgements a decision on a housing proposal needs, shows the verbatim policy text at each step, adapts the next questions to the answers, and ends on an indicative determination with its reasons. Each reason is matched to decisions made since the Framework took effect on 17 August 2026. Not legal advice.</p>
+<p style="margin:0 0 10px;max-width:80ch">The route has 75 steps in 8 parts: The site and the proposal; Green Belt; Outside settlements; Sustainable location; Heritage; Other national policies; Benefits; The decision. The database behind it holds 971 decisions (899 by Planning Inspectors, 2 by the Secretary of State and 70 by councils), the newest dated 30 September 2026.</p>
+<ul style="margin:0;padding-left:20px">
+<li><a href="route/">The decision route in full</a>: every question, the answers offered, the guidance and the Framework text, as one page.</li>
+<li><a href="decisions/">All 971 decisions</a>: a page for each decision note, and the whole database as a JSON or CSV download.</li>
+<li><a href="method-and-cross-references/">Method &amp; cross-references</a>: how the tool was built and checked, and the inconsistencies found.</li>
+</ul>
+</section>
 <div class="licence" style="max-width:1100px;margin:28px auto 0;padding:0 16px 24px;font:13px/1.55 -apple-system,'Segoe UI',system-ui,sans-serif;color:var(--muted,#59635d)">&copy; Planning Distilled. Text, data and images on this page are released under the <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 licence</a>: share and adapt them freely, with credit to Planning Distilled. Quotations from decision letters, plans and the Framework remain the copyright of their publishers.</div>
 </body>
 </html>
