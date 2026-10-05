@@ -47,7 +47,7 @@ A continuous footway along the site frontage, a school next door and a 400 m wal
 - **GB7(1)(g)(iv): not-engaged.** 0.47 ha, 9 dwellings max, under 1,000 sq m, not major, so no Golden Rules
 - **S5(1)(j): pass.** run first, before the officer turned to S5(5); site treated as well related to "the settlement of Tanworth-in-Arden" although the village is washed over by Green Belt
 - **S5(5): pass.** not inappropriate, so approve unless benefits substantially outweighed
-- **Transitional(2): conflict (very-limited weight).** CS.15, CS.16, AS.10, CS.10, CS.26 and NDP H3 held "materially inconsistent" with the 2026 decision-making policies
+- **Transitional(2): conflict (very-limited weight).** CS.15, CS.16, AS.10, CS.10 and CS.26 held "materially inconsistent" with the 2026 decision-making policies; NDP H3 given very limited weight only because S6 is not engaged (p.8), though the report found the scheme "could be capable of according with Policy H3 in principle" through its Green Belt clause (p.6)
 - **S6: not-engaged.** NDP made 2022 but has no allocations meeting its requirement
 - **DM4: neutral (very-limited weight).** emerging SWLP DS.8/DS.12 conflict given very limited weight at Reg 19
 - **DP3: harm (limited weight).** limited to moderate landscape harm in the Arden Special Landscape Area; conflict with CS.5, CS.9, CS.12 and NDP BE1
