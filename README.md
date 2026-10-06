@@ -2,7 +2,7 @@
 
 Static site served by GitHub Pages at https://planningdistilled.org/ (custom domain set by `CNAME`; DNS at Cloudflare).
 
-- `research/england/` — England-wide work: `nppf-navigator/` and `service-village/`.
+- `research/england/` — England-wide work: `nppf-navigator/`, `dp3-design/` and `sustainable-location/` (with its sub-pages `sources/` and `service-village/`). `service-village/` holds only redirects to the page's new address.
 - `research/authority/<authority>/` — local planning authority reviews, e.g. `stratford-dc/`.
 - `research/settlement/<settlement>/` — settlement case studies, e.g. `claverdon/`.
 - `research/england/nppf-navigator/decisions/` — a static page, and a Markdown copy, for every decision note behind the Navigator, with `decisions.json` and `decisions.csv`; `route/` is the Navigator's decision route as one page.
