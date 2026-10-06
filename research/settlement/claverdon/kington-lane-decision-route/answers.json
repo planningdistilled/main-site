@@ -1,0 +1,268 @@
+{
+ "grey-belt": {
+  "title": "Grey belt route, GB7(1)(g)",
+  "answers": {
+   "gb": "yes",
+   "devType": "pdl",
+   "units": 10,
+   "heritage": [],
+   "supply": "below5",
+   "constraints": [
+    "flood",
+    "irreplaceable",
+    "biodiversity",
+    "treesHedges",
+    "access",
+    "neighbourhoodPlan"
+   ],
+   "gb7cat": "g",
+   "gb7gPlanAck": true,
+   "greyBelt": [],
+   "greyBeltUndermine": "no",
+   "unmetNeedAck": true,
+   "tr3Footway": [
+    "narrow",
+    "gaps"
+   ],
+   "tr3Lit": "unlit",
+   "tr3Speed": [
+    "20-30",
+    "50plus"
+   ],
+   "tr3SpeedEvidence": 32.3,
+   "tr3Services": "800to2k",
+   "tr3Bus": "minimal",
+   "tr3Rail": "none",
+   "tr3Tool": "notRun",
+   "tr3": "fail",
+   "gb8": "fail",
+   "f7": "not-demonstrated",
+   "n62": "no-loss",
+   "n22": "yes",
+   "n21d": "justified",
+   "dp32c": "no",
+   "tr64": "unacceptable",
+   "dp3Conflicts": [
+    "movement"
+   ],
+   "dp3": "not-justified",
+   "character": "limited",
+   "s6": "not-engaged",
+   "devPlan": "limited",
+   "homesAck": true,
+   "otherBenefits": [
+    "economic"
+   ],
+   "routeAck": true,
+   "gbHarmAck": true,
+   "vsc": "not-shown"
+  },
+  "result": {
+   "route": "GB6(2)",
+   "verdict": "refuse",
+   "title": "Refuse: inappropriate development, no very special circumstances",
+   "findings": [
+    {
+     "kind": "pass",
+     "policy": "AnnexB:grey-belt",
+     "text": "The land is grey belt: it does not strongly contribute to purposes (a), (b) or (d)."
+    },
+    {
+     "kind": "pass",
+     "policy": "GB7(1)(g)(i)",
+     "text": "Uses grey belt land and would not fundamentally undermine the remaining Green Belt."
+    },
+    {
+     "kind": "pass",
+     "policy": "GB7(1)(g)(ii)",
+     "text": "There is an evidenced unmet need for housing (footnote 41)."
+    },
+    {
+     "kind": "note",
+     "policy": "TR3(2)",
+     "text": "Evidence gap: the Connectivity Tool has not been run, although TR3(2) says it \"should be used alongside other relevant quantitative or qualitative evidence\"."
+    },
+    {
+     "kind": "fail",
+     "policy": "GB7(1)(g)(iii)",
+     "text": "Not a sustainable location with reference to TR3: the location does not offer a genuine choice of transport modes, so GB7(1)(g) is not met."
+    },
+    {
+     "kind": "fail",
+     "policy": "GB7(1)(g)(iv)",
+     "text": "Does not comply with the Golden Rules (GB8)."
+    },
+    {
+     "kind": "trigger",
+     "policy": "F7(2)",
+     "text": "In a location known to be at risk of flooding, F7(2)(a) to (e) are not demonstrated, so the proposal \"should be refused\"."
+    },
+    {
+     "kind": "trigger",
+     "policy": "TR6(4)",
+     "text": "An unacceptable impact on highway safety: the proposal \"should be refused\" (TR6(4))."
+    },
+    {
+     "kind": "trigger",
+     "policy": "DP3(3)",
+     "text": "Conflicts with DP3(1) or (2), or with explicit local design standards, without clear justification: DP3(3) says it \"should be refused\"."
+    },
+    {
+     "kind": "harm",
+     "policy": "N2(1)(a)",
+     "text": "Harm to landscape character and the character of the area, given limited weight.",
+     "weight": "limited"
+    },
+    {
+     "kind": "harm",
+     "policy": "s38(6)",
+     "text": "Conflict with development plan policies, given limited weight.",
+     "weight": "limited"
+    },
+    {
+     "kind": "benefit",
+     "policy": "HO7(1)",
+     "text": "New homes towards evidenced needs attract substantial weight (HO7(1)).",
+     "weight": "substantial"
+    },
+    {
+     "kind": "benefit",
+     "policy": "E2",
+     "text": "Short-term economic benefits of construction and occupation.",
+     "weight": "limited"
+    },
+    {
+     "kind": "route",
+     "policy": "GB6(2)",
+     "text": "Inappropriate development in the Green Belt, to be approved only in very special circumstances (GB6)."
+    },
+    {
+     "kind": "harm",
+     "policy": "GB6(2)",
+     "text": "Harm to the Green Belt by reason of inappropriateness, and to its openness, carries substantial weight (GB6(2)).",
+     "weight": "substantial"
+    }
+   ]
+  }
+ },
+ "pdl": {
+  "title": "Previously developed land route, GB7(1)(e), on the applicant's case",
+  "answers": {
+   "gb": "yes",
+   "devType": "pdl",
+   "units": 10,
+   "heritage": [],
+   "supply": "below5",
+   "constraints": [
+    "flood",
+    "irreplaceable",
+    "biodiversity",
+    "treesHedges",
+    "access",
+    "neighbourhoodPlan"
+   ],
+   "gb7cat": "e",
+   "gb7e": "pass",
+   "tr3Footway": [
+    "narrow",
+    "gaps"
+   ],
+   "tr3Lit": "unlit",
+   "tr3Speed": [
+    "20-30",
+    "50plus"
+   ],
+   "tr3SpeedEvidence": 32.3,
+   "tr3Services": "800to2k",
+   "tr3Bus": "minimal",
+   "tr3Rail": "none",
+   "tr3Tool": "notRun",
+   "tr3": "fail",
+   "f7": "not-demonstrated",
+   "n62": "no-loss",
+   "n22": "yes",
+   "n21d": "justified",
+   "dp32c": "no",
+   "tr64": "unacceptable",
+   "dp3Conflicts": [
+    "movement"
+   ],
+   "dp3": "not-justified",
+   "character": "limited",
+   "s6": "not-engaged",
+   "devPlan": "limited",
+   "homesAck": true,
+   "otherBenefits": [
+    "economic"
+   ],
+   "routeAck": true,
+   "balance": "outweighed"
+  },
+  "result": {
+   "route": "S5(5)",
+   "verdict": "refuse",
+   "title": "Refuse: fails a policy that says development \"should be refused\"",
+   "findings": [
+    {
+     "kind": "pass",
+     "policy": "GB7(1)(e)",
+     "text": "Redevelopment of previously developed land without substantial harm to openness, so it is not inappropriate development."
+    },
+    {
+     "kind": "note",
+     "policy": "TR3(2)",
+     "text": "Evidence gap: the Connectivity Tool has not been run, although TR3(2) says it \"should be used alongside other relevant quantitative or qualitative evidence\"."
+    },
+    {
+     "kind": "harm",
+     "policy": "TR3(1)(a)",
+     "text": "The location would not limit the need to travel by private car or offer a genuine choice of transport modes (TR3(1)(a))."
+    },
+    {
+     "kind": "trigger",
+     "policy": "F7(2)",
+     "text": "In a location known to be at risk of flooding, F7(2)(a) to (e) are not demonstrated, so the proposal \"should be refused\"."
+    },
+    {
+     "kind": "trigger",
+     "policy": "TR6(4)",
+     "text": "An unacceptable impact on highway safety: the proposal \"should be refused\" (TR6(4))."
+    },
+    {
+     "kind": "trigger",
+     "policy": "DP3(3)",
+     "text": "Conflicts with DP3(1) or (2), or with explicit local design standards, without clear justification: DP3(3) says it \"should be refused\"."
+    },
+    {
+     "kind": "harm",
+     "policy": "N2(1)(a)",
+     "text": "Harm to landscape character and the character of the area, given limited weight.",
+     "weight": "limited"
+    },
+    {
+     "kind": "harm",
+     "policy": "s38(6)",
+     "text": "Conflict with development plan policies, given limited weight.",
+     "weight": "limited"
+    },
+    {
+     "kind": "benefit",
+     "policy": "HO7(1)",
+     "text": "New homes towards evidenced needs attract substantial weight (HO7(1)).",
+     "weight": "substantial"
+    },
+    {
+     "kind": "benefit",
+     "policy": "E2",
+     "text": "Short-term economic benefits of construction and occupation.",
+     "weight": "limited"
+    },
+    {
+     "kind": "route",
+     "policy": "S5(5)",
+     "text": "Not inappropriate development in the Green Belt: approve unless the benefits are substantially outweighed (S5(5))."
+    }
+   ]
+  }
+ }
+}
